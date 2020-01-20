@@ -20,13 +20,13 @@ To start the code, run the file "Run_Haplotypes.py"
 
 Assuming all went well, you should get an ouput that looks like this in the terminal:
 
- .###################################################
- .#                                                 #
- .#      sites in VCF: 101                          #
- .#      9.90 % of Diagnostic Sites match VCF       #
- .#      Non-Diagnostic VCF Sites: 91               #
- .#                                                 #
- .###################################################
+###################################################
+|                                                 |
+|      sites in VCF: 101                          |
+|      9.90 % of Diagnostic Sites match VCF       |
+|      Non-Diagnostic VCF Sites: 91               |
+|                                                 |
+###################################################
 
 * Line 1: how many sites were in the original VCF
 * Line 2: what percentage of them were identified as diagnostic sites
