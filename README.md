@@ -1,5 +1,7 @@
-# The purpose of these scripts is to take a list of pre-determined SNPs that are diagnostic of certain structural variants (SVs) in the Helianthus genome, and check the diagnostic sites against sequenced samples with unknown SV haplotypes to identify which SVs your samples have. This script should work for both DNAseq and RNAseq data. The script uses two input files. A VCF of your samples, and a list of diagnostic sites for your SV. Diagnostic snp lists for each Helianthus SV have been previously generated and are [publicly available](https://github.com/owensgl/wild_gwas_2018/tree/master/MDS_outliers/Ha412HO).
+# This script is used to identify Structural Variant (SV) haplotypes in *Helianthus* SNP data.
 ### These scripts run on Python2.7, do NOT use Python3. 
+
+The purpose of these scripts is to take a list of pre-determined SNPs that are diagnostic of certain structural variants (SVs) in the Helianthus genome, and check the diagnostic sites against sequenced samples with unknown SV haplotypes to identify which SVs your samples have. This script should work for both DNAseq and RNAseq data. The script uses two input files. A VCF of your samples, and a list of diagnostic sites for your SV. Diagnostic snp lists for each Helianthus SV have been previously generated and are [publicly available](https://github.com/owensgl/wild_gwas_2018/tree/master/MDS_outliers/Ha412HO).
 
 There are multiple ways to run this script:
 > You can run it to diagnose a single SV, or a list of SVs
