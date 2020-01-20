@@ -8,7 +8,7 @@ There are multiple ways to run this script:
 * You can run it using either HanXRQ (recommended) or HaHO412 (results may be inaccurate using list diagnostic site lists generated in XRQ)
 
 Files required to run the code are in: [The Scripts Folder](https://github.com/katlande/Helianthus_VCF_Haplotyping/tree/master/Scripts)
-Test files can be found in:  LINK TO TEST FILE FOLDER
+Test files can be found in:  [The Test File Folder](https://github.com/katlande/Helianthus_VCF_Haplotyping/tree/master/Test_Files)
 
 ### How to run the code for a single SV haplotype:
 
