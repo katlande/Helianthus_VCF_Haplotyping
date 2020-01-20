@@ -4,8 +4,8 @@
 The purpose of these scripts is to take a list of pre-determined SNPs that are diagnostic of certain structural variants (SVs) in the Helianthus genome, and check the diagnostic sites against sequenced samples with unknown SV haplotypes to identify which SVs your samples have. This script should work for both DNAseq and RNAseq data. The script uses two input files. A VCF of your samples, and a list of diagnostic sites for your SV. Diagnostic snp lists for each Helianthus SV have been previously generated and are [publicly available](https://github.com/owensgl/wild_gwas_2018/tree/master/MDS_outliers/Ha412HO).
 
 There are multiple ways to run this script:
-> You can run it to diagnose a single SV, or a list of SVs
-> You can run it using either HanXRQ (recommended) or HaHO412 (results may be inaccurate using list diagnostic site lists generated in XRQ)
+* You can run it to diagnose a single SV, or a list of SVs
+* You can run it using either HanXRQ (recommended) or HaHO412 (results may be inaccurate using list diagnostic site lists generated in XRQ)
 
 Files required to run the code are in: LINK TO CODE FOLDER
 Test files can be found in:  LINK TO TEST FILE FOLDER
@@ -20,13 +20,13 @@ To start the code, run the file "Run_Haplotypes.py"
 
 Assuming all went well, you should get an ouput that looks like this in the terminal:
 
-"###################################################"
-"#                                                 #"
-"#      sites in VCF: 101                          #"
-"#      9.90 % of Diagnostic Sites match VCF       #"
-"#      Non-Diagnostic VCF Sites: 91               #"
-"#                                                 #"
-"###################################################"
+> ###################################################
+> #                                                 #
+> #      sites in VCF: 101                          #
+> #      9.90 % of Diagnostic Sites match VCF       #
+> #      Non-Diagnostic VCF Sites: 91               #
+> #                                                 #
+> ###################################################
 
 * Line 1: how many sites were in the original VCF
 * Line 2: what percentage of them were identified as diagnostic sites
