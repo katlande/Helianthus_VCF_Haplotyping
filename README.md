@@ -7,7 +7,7 @@ There are multiple ways to run this script:
 * You can run it to diagnose a single SV, or a list of SVs
 * You can run it using either HanXRQ (recommended) or HaHO412 (results may be inaccurate using list diagnostic site lists generated in XRQ)
 
-Files required to run the code are in: LINK TO CODE FOLDER
+Files required to run the code are in: [The Scripts Folder](https://github.com/katlande/Helianthus_VCF_Haplotyping/tree/master/Scripts)
 Test files can be found in:  LINK TO TEST FILE FOLDER
 
 ### How to run the code for a single SV haplotype:
