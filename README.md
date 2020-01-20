@@ -20,13 +20,13 @@ To start the code, run the file "Run_Haplotypes.py"
 
 Assuming all went well, you should get an ouput that looks like this in the terminal:
 
-> ###################################################
-> #                                                 #
-> #      sites in VCF: 101                          #
-> #      9.90 % of Diagnostic Sites match VCF       #
-> #      Non-Diagnostic VCF Sites: 91               #
-> #                                                 #
-> ###################################################
+ .###################################################
+ .#                                                 #
+ .#      sites in VCF: 101                          #
+ .#      9.90 % of Diagnostic Sites match VCF       #
+ .#      Non-Diagnostic VCF Sites: 91               #
+ .#                                                 #
+ .###################################################
 
 * Line 1: how many sites were in the original VCF
 * Line 2: what percentage of them were identified as diagnostic sites
@@ -56,9 +56,9 @@ Additionally, there should be a file in your working directory called "Test_DS_s
 Run the script again, but this time select y/yes when it asks if you want to run multiple haplotypes.
 * You will be prompted for a LIST of diagnostic file names, rather than a single diagnostic file. Use "list_of_DS_sites.txt" for the test files.
 * This file contains the \n separated names of 3 other files in the folder:
-1. test_DSfile_1.txt
-2. test_DSfile_2.txt
-3. test_DSfile_3.txt
+  * test_DSfile_1.txt
+  * test_DSfile_2.txt
+  * test_DSfile_3.txt
 
 * These are all the same file with a different name. They are also the same as the Test_DS_sites.txt file you input for the single haplotype code. The point is to check if they look the same.
 * Everything else about the code runs the same way, except you should now have three output files instead of one.
